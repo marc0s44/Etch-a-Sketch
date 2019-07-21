@@ -1,0 +1,36 @@
+body, #main {
+    background-color: darkorange;
+}
+.gridContainer {
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin-right: 10%;
+    /* top: 60%;
+    left: 60%;
+    transform: translate(0, -60%); */
+}
+.square {
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid grey;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.blueBackground {
+    background-color: blue;
+}
+li {
+    display: inline-block;
+    margin: 0.1em;
+    margin-top: 10%;
+}
+#main {
+    display: inline-block;
+    width: 100%;
+}
+.options {
+text-align: center;
+}
