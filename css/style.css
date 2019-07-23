@@ -4,7 +4,6 @@ body, #main {
 }
 .gridContainer {
     display: grid;
-    grid-template-columns: repeat(5,auto);
     float: right;
     margin-right: 10%;
     width: 420px;
@@ -15,25 +14,20 @@ body, #main {
     display: inline-block;
     vertical-align: top;
     border: 1px solid grey;
-    /* width: 1.5em;
-    height: 1.5em; */
 }
 
-.blueBackground {
-    background-color: blue;
-}
 li {
     display: inline-block;
     margin: 0.1em;
-    margin-top: 10%;
 }
 #main {
     margin-top: 5%;
-    display: inline-block;
+    display: flex;
     width: 100%;
 }
 .options {
 text-align: center;
+margin: auto;
 }
 #top p {
     font-size: 2em;
