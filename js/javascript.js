@@ -63,13 +63,11 @@ function createGrid (rows=16, columns=16) {
         for(let j = 0; j<columns; j++) {
             let div = document.createElement("div");
             div.className = "square";
-            div.style.width = `${420/(columns)-3}px`;
-            div.style.height = `${415/(rows)-3}px`;
             document.querySelector(".gridContainer").appendChild(div);
         }
-        const newRow = document.createElement("br");
-        document.querySelector(".gridContainer").appendChild(newRow);
     }
+    const gridContainer = document.querySelector(".gridContainer");
+    gridContainer.style.gridTemplateColumns = `repeat(${columns},auto)`;
     squares = document.querySelectorAll(".square");
 }
 function deleteGrid () {

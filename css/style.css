@@ -3,8 +3,8 @@ body, #main {
     margin: 0;
 }
 .gridContainer {
-    position: relative;
-    display: inline-block;
+    display: grid;
+    grid-template-columns: repeat(5,auto);
     float: right;
     margin-right: 10%;
     width: 420px;
